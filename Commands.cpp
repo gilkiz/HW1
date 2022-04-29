@@ -501,7 +501,8 @@ void JobsList::printJobsList(){
       std::cout << "[" << jobs[i].getJobID() << "] "<< jobs[i].GetCmdLine() <<
         " : "<< jobs[i].getPID() << " " << seconds_elapsed << " secs" << " (stopped)" << std::endl;  
     }
-    else{
+    else
+    {
       std::cout << "[" << jobs[i].getJobID() << "] "<< jobs[i].GetCmdLine() <<
       " : " << jobs[i].getPID() << " " << seconds_elapsed << " secs" << std::endl;
     }
